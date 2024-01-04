@@ -6,8 +6,7 @@ const useForecast = () => {
 	const [option, setOption] = useState<[]>([]);
 	const [selected, setSelected] = useState<optionType | null>(null);
 	const [forecast, setForecast] = useState<forecastType | null>(null);
-
-	console.log(forecast);
+	// console.log(forecast);
 
 	const getSearchOption = (value: string) => {
 		fetch(
